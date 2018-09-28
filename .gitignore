@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Other ignores
+ignore/
+
+# Specific binaries
+rc4
+aes
+goaes/jsontests/parse_rsp
+
+
+# Test files
+goaes/jsontests/*.json
+goaes/jsontests/*.rsp
+goaes/jsontests/*.html
+goaes/jsontests/*.zip

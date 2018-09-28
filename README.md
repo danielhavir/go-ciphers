@@ -67,7 +67,7 @@ AES is a U.S. National Insitute of Standards and Technology (NIST) specification
     * Specify the preferred mode of operation ("ecb" or "cbc"). By default, "cbc" is used as "ecb" is NOT a secure mode of operation.
     * Use the `-hex` flag to encode encrypted ciphertext to hex encoding, or decode ciphertext for decription from hex encoding.
 
-Please note that **password must be either 128, 192 or 256 bits long, i.e. 16, 24 or 32 bytes / characters long.
+Please note that **password must be either 128, 192 or 256 bits long, i.e. 16, 24 or 32 bytes / characters long.**
 
 ### Help
 * For more info run `./aes -h`
